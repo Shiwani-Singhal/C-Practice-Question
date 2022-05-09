@@ -1,0 +1,120 @@
+//print the counting 
+/*#include<iostream>
+using namespace std;
+void print(int n)
+{
+    if(n==0)
+    {
+        return ;
+    }
+    
+    print(n-1);//normal counting
+    cout<<n<<" ";
+    //print(n-1);//reverse counting
+
+}
+int main()
+{
+    int n;
+    cin>>n;
+    print(n);
+    return 0;
+}*/
+
+/*
+//Factorial of a number
+#include<iostream>
+using namespace std;
+int fact(int n)
+{
+    
+  if(n>1)
+  
+      return n * fact(n-1);
+  
+  else
+      return 1;
+  
+}
+int main()
+{
+    int n;
+    cin>>n;
+    cout<<"Factorial of number is:"<<fact(n);
+    //return 0;
+}*/
+
+/*
+//Fibonacci Number
+
+#include<iostream>
+using namespace std;
+int fib(int n)
+{
+    if(n==0)
+    {
+        return 0;
+    }
+    if(n==1)
+    {
+        return 1;
+    }
+    else
+    {
+        return fib(n-1)+fib(n-2);
+
+    }
+
+}
+int main()
+{
+    int n;
+    cin>>n;
+    cout<<fib(n);
+}*/
+
+
+/*
+//PRINT SPELLING
+#include<iostream>
+using namespace std;
+void spell(int n,string str[])
+{
+    if(n==0)
+    {
+        return ;
+    }
+    spell(n/10,str);
+    cout<< str[n%10]<<" ";
+}
+int main()
+{
+   int n;
+   cin>>n;
+   string str[10]={"Zero","One","Two","Three","Four",
+   "Five","Six","Seven","Eight","Nine"};
+   spell(n,str);
+   return 0;
+
+}*/
+
+
+
+//EXPONENT
+// #include<iostream>
+// using namespace std;
+// int exp(int n,int k)
+// {
+//    if(k!=0)
+//       return (n*exp(n,k-1));
+//    else
+//       return 1;   
+// }
+// int main()
+// {
+//     int n,k;
+//     cin>>n>>k;
+//     int result = exp(n,k);
+//     cout<<result;
+//     return 0;
+// }
